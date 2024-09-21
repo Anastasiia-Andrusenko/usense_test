@@ -1,0 +1,36 @@
+.converter_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.time {
+  text-align: center;
+}
+.group {
+  display: flex;
+}
+
+.input {
+  margin: 0;
+  width: 200px;
+  height: 38px;
+  padding: 6px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.exchange_text {
+  text-align: center;
+  color: var(--main_text);
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 20px;
+}

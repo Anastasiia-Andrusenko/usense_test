@@ -1,10 +1,27 @@
+// import { useEffect, useState } from 'react';
 import Container from '../../components/Container/Container';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import css from './Home.module.css';
 import { PiSmileyWinkThin } from 'react-icons/pi';
+// import { getNews } from '../../api/newsAPI';
 
 const Home = () => {
+  // const [news, setNews] = useState([]);
+
+  // useEffect(() => {
+  //   const fetchNews = async () => {
+  //     try {
+  //       const data = await getNews();
+  //       setNews(data.articles);
+  //     } catch (error) {
+  //       console.log('Error fetching news:', error);
+  //     }
+  //   };
+  //   fetchNews();
+  //   console.log(news);
+  // }, []);
+
   return (
     <>
       <Header />
