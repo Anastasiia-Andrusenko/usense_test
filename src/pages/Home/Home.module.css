@@ -1,0 +1,123 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  color: var(--main_text);
+}
+
+.illustration_wrapper {
+  position: relative;
+  width: 315px;
+  height: 315px;
+  margin: auto;
+  margin-top: 60px;
+}
+.illustration {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+
+  background-image: url('../../img/illustration.webp');
+}
+
+.illustration_bg {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: var(--purple);
+  border: 2px solid black;
+}
+
+.icon {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  font-size: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    text-align: end;
+    width: 360px;
+    font-size: 30px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+  }
+  .icon {
+    left: 0px;
+    top: 40px;
+  }
+
+  .illustration_wrapper {
+    width: 320px;
+    height: 480px;
+    margin: 0;
+  }
+  .illustration {
+    right: 25px;
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+    width: 300px;
+    border-radius: 150px;
+
+    background-image: url('../../img/illustration.webp');
+  }
+
+  .illustration_bg {
+    right: 0;
+    top: 10px;
+    height: 460px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: var(--purple);
+    border: 2px solid black;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 90px 0;
+  }
+
+  .title {
+    width: 660px;
+    font-size: 44px;
+  }
+
+  .illustration_wrapper {
+    width: 380px;
+    height: 515px;
+  }
+  .illustration {
+    right: 36px;
+    height: 500px;
+    width: 350px;
+    border-radius: 180px;
+  }
+
+  .illustration_bg {
+    right: 0;
+    top: 12px;
+    height: 500px;
+    width: 350px;
+    border-radius: 180px;
+  }
+}

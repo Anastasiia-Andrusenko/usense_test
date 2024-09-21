@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 160px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: var(--green);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.currency {
+}
+
+.rate {
+}
