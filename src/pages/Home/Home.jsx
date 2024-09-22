@@ -1,26 +1,28 @@
-// import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Container from '../../components/Container/Container';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import css from './Home.module.css';
 import { PiSmileyWinkThin } from 'react-icons/pi';
-// import { getNews } from '../../api/newsAPI';
+import { getNews } from '../../api/newsAPI';
+import NewsCard from '../../components/NewsCard/NewsCard';
 
 const Home = () => {
-  // const [news, setNews] = useState([]);
+  const [news, setNews] = useState([]);
 
-  // useEffect(() => {
-  //   const fetchNews = async () => {
-  //     try {
-  //       const data = await getNews();
-  //       setNews(data.articles);
-  //     } catch (error) {
-  //       console.log('Error fetching news:', error);
-  //     }
-  //   };
-  //   fetchNews();
-  //   console.log(news);
-  // }, []);
+  useEffect(() => {
+    const fetchNews = async () => {
+      try {
+        const articles = await getNews();
+        setNews(articles);
+        console.log(articles);
+      } catch (error) {
+        console.log('Error fetching news:', error);
+      }
+    };
+
+    fetchNews();
+  }, []);
 
   return (
     <>
@@ -37,6 +39,27 @@ const Home = () => {
               <div className={css.illustration}></div>
               <PiSmileyWinkThin className={css.icon} />
             </div>
+          </div>
+          <div className={css.news}>
+            <h3 className={css.news_title}>
+              The latest news is related to money
+            </h3>
+            <ul className={css.news_list}>
+              {news.length > 0 ? (
+                news.map((article, index) => (
+                  <li className={css.news_item} key={index}>
+                    <NewsCard
+                      title={article.title}
+                      description={article.description}
+                      image={article.image}
+                      url={article.url}
+                    />
+                  </li>
+                ))
+              ) : (
+                <p className={css.message}>No news available.</p>
+              )}
+            </ul>
           </div>
         </Container>
       </main>

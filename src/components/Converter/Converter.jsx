@@ -44,7 +44,6 @@ const Converter = () => {
       ...provided,
       height: '38px',
       width: '100px',
-      // padding: '6px 20px',
       border: '2px solid black',
       borderLeft: 'none',
       borderTopRightRadius: '20px',

@@ -7,6 +7,7 @@
 .title {
   text-transform: uppercase;
   text-align: center;
+  font-size: 22px;
 }
 
 .time {
@@ -18,7 +19,8 @@
 
 .input {
   margin: 0;
-  width: 200px;
+  width: 40vw;
+  max-width: 200px;
   height: 38px;
   padding: 6px 20px;
   border-top-left-radius: 20px;
@@ -33,4 +35,14 @@
   font-weight: 800;
   font-size: 20px;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 200px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
 }

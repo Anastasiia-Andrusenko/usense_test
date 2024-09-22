@@ -1,19 +1,19 @@
-const API_KEY = '5039236b2acd46de8fea116de6bb4b8f';
+const API_KEY = '55728bc848b205b7a559a8f6fa247301';
 
 const url =
-  'https://newsapi.org/v2/everything?' +
-  'q=Apple&' +
-  'from=2023-09-21&' +
-  'sortBy=popularity&' +
-  `apiKey=${API_KEY}`;
-
-// const req = new Request(url);
+  'https://gnews.io/api/v4/search?q=money&lang=en&country=us&max=6&apikey=' +
+  API_KEY;
 
 export const getNews = async () => {
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`HTTP error! Status: ${response.status}`);
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data.articles; // Повертаємо масив новин
+  } catch (error) {
+    console.error('Error fetching news:', error);
+    throw error;
   }
-  const data = await response.json();
-  return data;
 };

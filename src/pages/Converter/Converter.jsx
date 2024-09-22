@@ -12,12 +12,14 @@ const ConverterPage = () => {
       <Header />
       <main>
         <Container>
-          <div className={css.gif_wrapper}>
-            <div className={css.gif_bg}></div>
-            <div className={css.gif}></div>
+          <div className={css.page_wrapper}>
+            <div className={css.gif_wrapper}>
+              <div className={css.gif_bg}></div>
+              <div className={css.gif}></div>
+            </div>
+            <GiMoneyStack className={css.icon} />
+            <Converter />
           </div>
-          <GiMoneyStack className={css.icon} />
-          <Converter />
         </Container>
       </main>
       <Footer />
