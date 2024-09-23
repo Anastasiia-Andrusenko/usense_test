@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+#-ukr-------------------- ТЕСТОВЕ ЗАВДАННЯ на позицію Junior React Developer в
+#------------------------------------------------------------Usense Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 🔥 ЗАДАЧА: Створити конвертер валют. Header з курсом валют та Компонент із
+   конвертацією.
 
-## Available Scripts
+2. 🔥 ПІДГОТОВКА: Проаналізувавши задачу, я розробила структуру сайту. Оскільки
+   по ТЗ наповнення було не багато, я додала логічні 2 сторінки( та їх логічне
+   наповнення), щоб сайт був схожий на реальний проект. Визначилась з
+   бібліотеками та додатковими ресурсами які буду використовувати.
 
-In the project directory, you can run:
+3. 🔥 РЕАЛІЗАЦІЯ: Написання коду починається зі створення структури проекту. Та
+   завантаження необхідних npm пакетів. Після створила компоненти і вже потім
+   почала прописувати js логіку та api запити. Після перейшла до стилізації
+   компонентів. Стилізацію виконала за принципом mobile first. Та реалізувала
+   адаптивну верстку. Після мануального тестування локально завантажила на
+   GitHub та налаштувала live page.
 
-### `npm start`
+4. 🔥 ВИСНОВОК: REACT сайт з адаптивною версткою:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🟨 сторінка HOME складається з хедера з навігацією по сторінках та основним
+компонентом - актуальний курс. Також використавши інше api виводимо останні
+новини повʼязані з грошима. Футер (присутній на всіх сторінках)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🟩 сторінка CONVERTER складається з конвертера, зручного повідомлення яке
+зрозумілими словами динамічно виводить інформацію про розрахунок запиту, ну і
+хедер присутній на всіх сторінках.
 
-### `npm test`
+🟪 сторінка CANDIDATE складається з фото виконавиці 😄, посиланнями на моє CV та
+портфоліо. Та контакти для зручного звʼязку.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#-en-------------------- TEST TASK for the Junior React Developer position
+#--------------------------------------------------------at Usense Company
 
-### `npm run build`
+1. 🔥 TASK: Create a currency converter. A header displaying exchange rates and
+   a component for the currency conversion functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. 🔥 PREPARATION: After analyzing the task, I developed the structure of the
+   website. Since the content described in the task was minimal, I logically
+   added 2 pages (with appropriate content) to make the site look more like a
+   real project. I also selected the necessary libraries and additional
+   resources for implementation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. 🔥 IMPLEMENTATION: The coding started by creating the project structure and
+   installing the necessary npm packages. I then created the components and,
+   after that, began writing the JavaScript logic and API requests. Once the
+   logic was in place, I moved on to styling the components, following a
+   mobile-first approach and implementing responsive design. After manually
+   testing the project locally, I uploaded it to GitHub and configured the live
+   page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. 🔥 CONCLUSION: A REACT website with responsive design:
 
-### `npm run eject`
+🟨 The HOME page consists of a header with navigation links and the main
+component that displays the current exchange rates. Additionally, using a
+different API, I displayed the latest news related to finance. The footer is
+present on all pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🟩 The CONVERTER page includes a currency converter and a user-friendly message
+that dynamically displays the result of the conversion in understandable terms.
+The header is also present on this page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🟪 The CANDIDATE page includes a photo of the developer 😄, links to my CV and
+portfolio, as well as contact details for easy communication.
