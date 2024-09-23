@@ -114,7 +114,7 @@ const Converter = () => {
     <div className={css.converter_wrapper}>
       <h1 className={css.title}>Current exchange rate converter</h1>
       <p className={css.time}>
-        {timeUpdate || 'Update of the current rate failed'}
+        Last update {timeUpdate || 'Update of the current rate failed'}
       </p>
       <div className={css.group}>
         <input
