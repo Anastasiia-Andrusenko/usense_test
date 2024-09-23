@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/usense_test/static/css/main.a738b5b7.css",
-    "main.js": "/usense_test/static/js/main.45b324e9.js",
+    "main.js": "/usense_test/static/js/main.f5f5d5c9.js",
     "static/css/370.c268a163.chunk.css": "/usense_test/static/css/370.c268a163.chunk.css",
     "static/js/370.9353d2fd.chunk.js": "/usense_test/static/js/370.9353d2fd.chunk.js",
     "static/css/766.37a732dd.chunk.css": "/usense_test/static/css/766.37a732dd.chunk.css",
     "static/js/766.8a616415.chunk.js": "/usense_test/static/js/766.8a616415.chunk.js",
     "static/css/839.1d162c2c.chunk.css": "/usense_test/static/css/839.1d162c2c.chunk.css",
-    "static/js/839.e87268c9.chunk.js": "/usense_test/static/js/839.e87268c9.chunk.js",
+    "static/js/839.1327fe08.chunk.js": "/usense_test/static/js/839.1327fe08.chunk.js",
     "static/js/595.f2e3f3cf.chunk.js": "/usense_test/static/js/595.f2e3f3cf.chunk.js",
     "static/js/917.7b5738b9.chunk.js": "/usense_test/static/js/917.7b5738b9.chunk.js",
     "static/js/60.7ab1c0d5.chunk.js": "/usense_test/static/js/60.7ab1c0d5.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/illustration.webp": "/usense_test/static/media/illustration.c2515cd16e5a56484698.webp",
     "index.html": "/usense_test/index.html",
     "main.a738b5b7.css.map": "/usense_test/static/css/main.a738b5b7.css.map",
-    "main.45b324e9.js.map": "/usense_test/static/js/main.45b324e9.js.map",
+    "main.f5f5d5c9.js.map": "/usense_test/static/js/main.f5f5d5c9.js.map",
     "370.c268a163.chunk.css.map": "/usense_test/static/css/370.c268a163.chunk.css.map",
     "370.9353d2fd.chunk.js.map": "/usense_test/static/js/370.9353d2fd.chunk.js.map",
     "766.37a732dd.chunk.css.map": "/usense_test/static/css/766.37a732dd.chunk.css.map",
     "766.8a616415.chunk.js.map": "/usense_test/static/js/766.8a616415.chunk.js.map",
     "839.1d162c2c.chunk.css.map": "/usense_test/static/css/839.1d162c2c.chunk.css.map",
-    "839.e87268c9.chunk.js.map": "/usense_test/static/js/839.e87268c9.chunk.js.map",
+    "839.1327fe08.chunk.js.map": "/usense_test/static/js/839.1327fe08.chunk.js.map",
     "595.f2e3f3cf.chunk.js.map": "/usense_test/static/js/595.f2e3f3cf.chunk.js.map",
     "917.7b5738b9.chunk.js.map": "/usense_test/static/js/917.7b5738b9.chunk.js.map",
     "60.7ab1c0d5.chunk.js.map": "/usense_test/static/js/60.7ab1c0d5.chunk.js.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.a738b5b7.css",
-    "static/js/main.45b324e9.js"
+    "static/js/main.f5f5d5c9.js"
   ]
 }
